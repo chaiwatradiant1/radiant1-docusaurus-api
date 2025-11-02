@@ -10,7 +10,7 @@ export default {
   "url": "https://chaiwatradiant1.github.io",
   "baseUrl": "/radiant1-docusaurus-api/",
   "organizationName": "chaiwatradiant1",
-  "projectName": "radiant1-pms-api-docs",
+  "projectName": "radiant1-docusaurus-api",
   "onBrokenLinks": "warn",
   "markdown": {
     "hooks": {
