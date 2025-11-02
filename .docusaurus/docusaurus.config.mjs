@@ -8,7 +8,7 @@ export default {
   "tagline": "Complete API integration guide for Property Management Systems",
   "favicon": "img/favicon.ico",
   "url": "https://chaiwatradiant1.github.io",
-  "baseUrl": "/radiant1-pms-api-docs/",
+  "baseUrl": "/radiant1-docusaurus-api/",
   "organizationName": "chaiwatradiant1",
   "projectName": "radiant1-pms-api-docs",
   "onBrokenLinks": "warn",

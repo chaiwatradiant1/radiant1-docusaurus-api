@@ -5,7 +5,7 @@
   "source": "@site/api/overview.md",
   "sourceDirName": ".",
   "slug": "/overview",
-  "permalink": "/radiant1-pms-api-docs/api/overview",
+  "permalink": "/radiant1-docusaurus-api/api/overview",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -18,6 +18,6 @@
   "sidebar": "apiSidebar",
   "next": {
     "title": "Bookings API",
-    "permalink": "/radiant1-pms-api-docs/api/rest/bookings"
+    "permalink": "/radiant1-docusaurus-api/api/rest/bookings"
   }
 }

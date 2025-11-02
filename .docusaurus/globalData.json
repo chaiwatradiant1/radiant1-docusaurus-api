@@ -1,23 +1,23 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/radiant1-pms-api-docs/docs",
+      "path": "/radiant1-docusaurus-api/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/radiant1-pms-api-docs/docs",
+          "path": "/radiant1-docusaurus-api/docs",
           "mainDocId": "intro",
           "docs": [
             {
               "id": "getting-started/quick-start",
-              "path": "/radiant1-pms-api-docs/docs/getting-started/quick-start",
+              "path": "/radiant1-docusaurus-api/docs/getting-started/quick-start",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "intro",
-              "path": "/radiant1-pms-api-docs/docs/",
+              "path": "/radiant1-docusaurus-api/docs/",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -25,7 +25,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/radiant1-pms-api-docs/docs/",
+                "path": "/radiant1-docusaurus-api/docs/",
                 "label": "intro"
               }
             }
@@ -35,23 +35,23 @@
       "breadcrumbs": true
     },
     "api": {
-      "path": "/radiant1-pms-api-docs/api",
+      "path": "/radiant1-docusaurus-api/api",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/radiant1-pms-api-docs/api",
+          "path": "/radiant1-docusaurus-api/api",
           "mainDocId": "overview",
           "docs": [
             {
               "id": "overview",
-              "path": "/radiant1-pms-api-docs/api/overview",
+              "path": "/radiant1-docusaurus-api/api/overview",
               "sidebar": "apiSidebar"
             },
             {
               "id": "rest/bookings",
-              "path": "/radiant1-pms-api-docs/api/rest/bookings",
+              "path": "/radiant1-docusaurus-api/api/rest/bookings",
               "sidebar": "apiSidebar"
             }
           ],
@@ -59,7 +59,7 @@
           "sidebars": {
             "apiSidebar": {
               "link": {
-                "path": "/radiant1-pms-api-docs/api/overview",
+                "path": "/radiant1-docusaurus-api/api/overview",
                 "label": "overview"
               }
             }

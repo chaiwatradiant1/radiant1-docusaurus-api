@@ -5,7 +5,7 @@
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/",
-  "permalink": "/radiant1-pms-api-docs/docs/",
+  "permalink": "/radiant1-docusaurus-api/docs/",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaiwatradiant1/radiant1-pms-api-docs/tree/main/docs/intro.md",
@@ -20,6 +20,6 @@
   "sidebar": "tutorialSidebar",
   "next": {
     "title": "Quick Start",
-    "permalink": "/radiant1-pms-api-docs/docs/getting-started/quick-start"
+    "permalink": "/radiant1-docusaurus-api/docs/getting-started/quick-start"
   }
 }

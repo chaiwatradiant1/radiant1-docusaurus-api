@@ -14,7 +14,7 @@
       "path": "en",
       "translate": false,
       "url": "https://chaiwatradiant1.github.io",
-      "baseUrl": "/radiant1-pms-api-docs/"
+      "baseUrl": "/radiant1-docusaurus-api/"
     }
   }
 }
