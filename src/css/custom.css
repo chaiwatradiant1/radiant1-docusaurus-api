@@ -1,0 +1,433 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2563eb;
+  --ifm-color-primary-dark: #1d4ed8;
+  --ifm-color-primary-darker: #1e40af;
+  --ifm-color-primary-darkest: #1e3a8a;
+  --ifm-color-primary-light: #3b82f6;
+  --ifm-color-primary-lighter: #60a5fa;
+  --ifm-color-primary-lightest: #93bbfc;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* Custom colors for API documentation */
+  --ifm-color-success: #059669;
+  --ifm-color-warning: #d97706;
+  --ifm-color-danger: #dc2626;
+  --ifm-color-info: #0891b2;
+
+  /* Custom background colors */
+  --api-card-bg: #f8fafc;
+  --api-card-border: #e2e8f0;
+  --api-header-bg: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Dark theme */
+[data-theme='dark'] {
+  --ifm-color-primary: #3b82f6;
+  --ifm-color-primary-dark: #2563eb;
+  --ifm-color-primary-darker: #1d4ed8;
+  --ifm-color-primary-darkest: #1e40af;
+  --ifm-color-primary-light: #60a5fa;
+  --ifm-color-primary-lighter: #93bbfc;
+  --ifm-color-primary-lightest: #dbeafe;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  /* Custom dark theme colors */
+  --api-card-bg: #1e293b;
+  --api-card-border: #334155;
+  --api-header-bg: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+}
+
+/* Hero section styling */
+.hero {
+  background: var(--api-header-bg);
+  padding: 4rem 2rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+}
+
+.hero__title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.hero__subtitle {
+  font-size: 1.25rem;
+  opacity: 0.9;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.hero__features {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.hero__feature {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  font-size: 0.875rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* API cards */
+.api-card {
+  background: var(--api-card-bg);
+  border: 1px solid var(--api-card-border);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: all 0.2s ease;
+}
+
+.api-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.api-card__title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: var(--ifm-color-primary);
+}
+
+.api-card__description {
+  color: var(--ifm-color-emphasis-600);
+  margin-bottom: 1rem;
+}
+
+/* Status badges */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+}
+
+.badge--success {
+  background: var(--ifm-color-success);
+  color: white;
+}
+
+.badge--warning {
+  background: var(--ifm-color-warning);
+  color: white;
+}
+
+.badge--danger {
+  background: var(--ifm-color-danger);
+  color: white;
+}
+
+.badge--info {
+  background: var(--ifm-color-info);
+  color: white;
+}
+
+/* Alert boxes */
+.alert {
+  border-left: 4px solid;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0.5rem;
+  background: var(--ifm-color-emphasis-100);
+}
+
+.alert--success {
+  border-color: var(--ifm-color-success);
+  background: rgba(5, 150, 105, 0.1);
+}
+
+.alert--warning {
+  border-color: var(--ifm-color-warning);
+  background: rgba(217, 119, 6, 0.1);
+}
+
+.alert--danger {
+  border-color: var(--ifm-color-danger);
+  background: rgba(220, 38, 38, 0.1);
+}
+
+.alert--info {
+  border-color: var(--ifm-color-info);
+  background: rgba(8, 145, 178, 0.1);
+}
+
+/* Code blocks with syntax highlighting */
+.theme-code-block {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Tables */
+table {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+th {
+  background: var(--ifm-color-emphasis-200);
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background: var(--ifm-color-emphasis-100);
+}
+
+tr:hover {
+  background: var(--ifm-color-emphasis-200);
+}
+
+/* API endpoint boxes */
+.endpoint-box {
+  background: var(--ifm-color-emphasis-100);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1rem 0;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+}
+
+.endpoint-box .method {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  color: white;
+  font-weight: 600;
+  margin-right: 0.5rem;
+  min-width: 60px;
+  text-align: center;
+}
+
+.method--get {
+  background: #10b981;
+}
+
+.method--post {
+  background: #3b82f6;
+}
+
+.method--put {
+  background: #f59e0b;
+}
+
+.method--delete {
+  background: #ef4444;
+}
+
+.endpoint-box .url {
+  color: var(--ifm-color-emphasis-800);
+  font-weight: 500;
+}
+
+/* Request/response examples */
+.example-box {
+  background: var(--api-card-bg);
+  border: 1px solid var(--api-card-border);
+  border-radius: 0.75rem;
+  margin: 1.5rem 0;
+  overflow: hidden;
+}
+
+.example-box__header {
+  background: var(--ifm-color-emphasis-200);
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+  border-bottom: 1px solid var(--api-card-border);
+}
+
+.example-box__content {
+  padding: 1rem;
+}
+
+/* Navigation improvements */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar__link--active {
+  color: var(--ifm-color-primary) !important;
+}
+
+/* Sidebar improvements */
+.sidebar {
+  border-right: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.menu__link--active {
+  background: var(--ifm-color-primary);
+  color: white !important;
+  border-radius: 0.25rem;
+}
+
+.menu__link--active:hover {
+  background: var(--ifm-color-primary-dark);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--ifm-color-emphasis-100);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--ifm-color-emphasis-300);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--ifm-color-emphasis-400);
+}
+
+/* Feature grid */
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.feature-card {
+  background: var(--api-card-bg);
+  border: 1px solid var(--api-card-border);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card__icon {
+  font-size: 2rem;
+  color: var(--ifm-color-primary);
+  margin-bottom: 1rem;
+}
+
+.feature-card__title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.feature-card__description {
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.875rem;
+}
+
+/* Tabs styling */
+.tabs__item {
+  border-bottom: 2px solid transparent;
+}
+
+.tabs__item--active {
+  border-bottom-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+}
+
+/* Admonition improvements */
+.admonition {
+  border-radius: 0.5rem;
+  border-left-width: 4px;
+}
+
+.admonition--important {
+  border-left-color: var(--ifm-color-warning);
+}
+
+.admonition--tip {
+  border-left-color: var(--ifm-color-success);
+}
+
+.admonition--note {
+  border-left-color: var(--ifm-color-info);
+}
+
+/* Download button */
+.download-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--ifm-color-primary);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.download-button:hover {
+  background: var(--ifm-color-primary-dark);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .hero__title {
+    font-size: 2rem;
+  }
+
+  .hero__subtitle {
+    font-size: 1rem;
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .hero__features {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Print styles */
+@media print {
+  .navbar,
+  .sidebar,
+  .footer {
+    display: none !important;
+  }
+
+  .main-wrapper {
+    margin: 0 !important;
+  }
+
+  .hero {
+    background: var(--ifm-color-primary) !important;
+    color: white !important;
+    -webkit-print-color-adjust: exact;
+  }
+}

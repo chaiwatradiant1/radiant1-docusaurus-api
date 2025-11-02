@@ -1,0 +1,72 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/radiant1-pms-api-docs/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/radiant1-pms-api-docs/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "getting-started/quick-start",
+              "path": "/radiant1-pms-api-docs/docs/getting-started/quick-start",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/radiant1-pms-api-docs/docs/",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/radiant1-pms-api-docs/docs/",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "api": {
+      "path": "/radiant1-pms-api-docs/api",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/radiant1-pms-api-docs/api",
+          "mainDocId": "overview",
+          "docs": [
+            {
+              "id": "overview",
+              "path": "/radiant1-pms-api-docs/api/overview",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "rest/bookings",
+              "path": "/radiant1-pms-api-docs/api/rest/bookings",
+              "sidebar": "apiSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "apiSidebar": {
+              "link": {
+                "path": "/radiant1-pms-api-docs/api/overview",
+                "label": "overview"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

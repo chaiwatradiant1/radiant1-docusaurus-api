@@ -1,0 +1,23 @@
+{
+  "id": "overview",
+  "title": "API Overview",
+  "description": "The Radiant1 PMS API provides standardized interfaces for Property Management Systems to integrate with the Radiant1 platform. The API supports both REST and SOAP protocols to ensure compatibility with various PMS implementations.",
+  "source": "@site/api/overview.md",
+  "sourceDirName": ".",
+  "slug": "/overview",
+  "permalink": "/radiant1-pms-api-docs/api/overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "API Overview"
+  },
+  "sidebar": "apiSidebar",
+  "next": {
+    "title": "Bookings API",
+    "permalink": "/radiant1-pms-api-docs/api/rest/bookings"
+  }
+}
